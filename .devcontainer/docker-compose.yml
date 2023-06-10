@@ -1,4 +1,9 @@
 version: '3'
 
 services:
+  # サービス名
   dotnet_dev:
+    # devcontainer用に生成されるコンテナ名
+    container_name: dotnet-devcontainer
+    # devcontainer用に生成されるイメージ名
+    image: dotnet_dev:6.0

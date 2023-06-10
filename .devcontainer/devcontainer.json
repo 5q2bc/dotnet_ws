@@ -3,8 +3,7 @@
 		"../docker-compose.yml",
 		"docker-compose.yml"
 	],
-
+	// ../docker-compose.ymlの名前と合わせる
 	"service": "dotnet_dev",
-
 	"workspaceFolder": "/test"
 }
