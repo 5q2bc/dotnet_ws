@@ -1,0 +1,8 @@
+version: '3'
+services:
+  dotnet_dev:
+    hostname: dotnet-dev
+    build: .
+    tty: true
+    volumes:
+      - ./test:/test
